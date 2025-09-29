@@ -42,3 +42,32 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Flutter/Dart/Pub related
+build/
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+**/lib/note.txt
+
+# iOS related
+**/ios/Pods
+**/ios/Runner.xcworkspace
+**/ios/.symlinks
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+
+# VS Code / IntelliJ / Android Studio
+.vscode/
+*.txt
+
+# Misc
+*.lock
+*.DS_Store
